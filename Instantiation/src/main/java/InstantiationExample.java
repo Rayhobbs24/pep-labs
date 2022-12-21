@@ -18,8 +18,8 @@ public class InstantiationExample {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        
+         String charger = new String();
 
-        return null;
+        return charger;
     }
 }
