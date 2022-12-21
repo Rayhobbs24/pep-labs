@@ -28,7 +28,11 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnNot(boolean b){
-        
+        if (b == true) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     /**
@@ -38,7 +42,11 @@ public class Expressions {
      * look into boolean operations to do this without using if/else statements.
      */
     public boolean returnAnd(boolean b1, boolean b2){
-        return false;
+        if (b1 == true && b2 == true) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     /**
@@ -49,7 +57,11 @@ public class Expressions {
      */
     public boolean returnOr(boolean b1, boolean b2){
 
-
+if (b1 == true || b2 == true) {
+    return true;
+} else {
+    return false;
+}
     }
 
 
