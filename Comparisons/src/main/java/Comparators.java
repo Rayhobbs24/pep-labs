@@ -1,3 +1,4 @@
+import org.objectweb.asm.tree.analysis.SourceInterpreter;
 
 /**
  * If we want to make programs that "do something", we're going to need to create instructions that change
@@ -14,10 +15,13 @@ public class Comparators {
      * @return true if a is equal to b, false otherwise.
      */
     public boolean isEqual(int a, int b){
-        if (a == b)
-        return true;
-        
+        if (a == b) {
+            return true;
+
+        } else {
+        return false;
         }
+    }
         
 
 
