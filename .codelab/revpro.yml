@@ -179,6 +179,7 @@
     :count_tests_passed: 0
     :tests:
       testObjectNotNull: 0
+      initializationError: 0
   Constructors:
     :Week: 2
     :Order: 3
