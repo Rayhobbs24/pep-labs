@@ -34,10 +34,10 @@ public class WhileLoop {
      **/
     public int whileExample(int end){
         int sum = 0;
-        int i = 0;
+        int i = 10;
 
 //        code here
-        while(i < 5); {
+        while(i > 3); {
             return sum ++;
         }
     }
