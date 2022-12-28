@@ -242,9 +242,9 @@
     :count_tests: 5
     :count_tests_passed: 0
     :tests:
-      evenTest1: 0
-      evenTest2: 0
-      evenTest3: 0
+      evenTest1: 1
+      evenTest2: 1
+      evenTest3: 1
       oddTest1: 0
       oddTest2: 0
       EvenOrOddTest: 0

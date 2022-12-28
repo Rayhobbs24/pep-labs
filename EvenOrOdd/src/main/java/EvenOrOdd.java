@@ -1,3 +1,9 @@
+import javax.sound.sampled.SourceDataLine;
+
+import org.objectweb.asm.tree.analysis.SourceInterpreter;
+
+import javafx.scene.chart.LineChart.SortingPolicy;
+
 public class EvenOrOdd {
     /**
      * Your challenge is to implement a method to determine if an int is even or odd. The method should return
@@ -14,11 +20,18 @@ public class EvenOrOdd {
      * @return a String "Even" if n is even, and "Odd" of in is odd. The test cases are case-sensitive.
      */
     public String decide(int n) {
-        if (n % 2)
-        return "";
-    }
+        if (n % 2 == 0) {
+            return "Even";
+        }
+        
+            
+        
+        
+        
+
+    
         
 
        
     }
-
+}
