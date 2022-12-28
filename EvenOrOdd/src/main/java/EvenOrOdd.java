@@ -1,3 +1,4 @@
+import javax.lang.model.util.ElementScanner6;
 import javax.sound.sampled.SourceDataLine;
 
 import org.objectweb.asm.tree.analysis.SourceInterpreter;
@@ -22,7 +23,11 @@ public class EvenOrOdd {
     public String decide(int n) {
         if (n % 2 == 0) {
             return "Even";
+        } else {
+            return "Odd";
         }
+    
+
         
             
         
