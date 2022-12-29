@@ -1,3 +1,4 @@
+import org.objectweb.asm.tree.analysis.SourceInterpreter;
 
 public class FizzBuzz {
     /**
@@ -16,11 +17,11 @@ public class FizzBuzz {
      */
     public String FizzBuzzGen(int n){
         if (n % 3 == 0) {
-            return Fizz;
+            return "Fizz";
         } else if (n % 5 == 0) {
-            return Buzz;
+             return "Buzz"; 
         } else if (n % 3 == 0 && n % 5 == 0) {
-            return FizzBuzz;
+            return "FizzBuzz"; 
         } else {
             return "";
         }
