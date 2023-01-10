@@ -26,7 +26,11 @@ public class MapExercise {
      * so here Integer is a wrapper for int.
      */
     public Map<Integer, String> createMap(){
-        return null;
+        
+        Map<Integer, String> words;
+       words = new Map<String>();
+       return words;
+
     }
 
     /**
@@ -36,7 +40,7 @@ public class MapExercise {
      */
     public int getSize(Map<Integer,String> map){
 //        return total number of key/value pairs in the map
-        return 0;
+        return map.size();
     }
 
     /**
@@ -47,6 +51,10 @@ public class MapExercise {
      * @return nothing, pass by reference will cause changes to the list object to be reflected across the program.
      */
     public void addKeyValuePair(Map<Integer,String> map, int key, String value){
+        Map<String, Integer> numberMapping = new HashMap<>();
+        numberMapping.put("One", 1);
+        return;
+
     }
 
     /**
