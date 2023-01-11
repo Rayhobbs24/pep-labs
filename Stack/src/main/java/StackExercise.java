@@ -25,9 +25,6 @@ public class StackExercise {
         Deque<String> stack = new LinkedList<String>();
         return stack;
         
-        
-        
-        
     }
 
     /**
@@ -54,7 +51,7 @@ public class StackExercise {
      * @return the value popped from the top of the deque.
      */
     public String removeFromTopOfStack(Deque<String> stack){
-         return stack.removeFirst();
+         return stack.pollLast();
          
     }
     /**
@@ -64,6 +61,6 @@ public class StackExercise {
      */
     public String getTopOfStackWithoutRemoving(Deque<String> stack){
          //stack.getFirst();
-         return stack.getFirst();
+         return stack.peekLast();
     }
 }
