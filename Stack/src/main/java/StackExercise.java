@@ -1,4 +1,5 @@
 import java.util.Deque;
+import java.util.LinkedList;
 import java.util.Stack;
 /**
  * Stacks are LIFO - last in, first out, like a stack of plates or books, or the puzzle game "Towers of Hanoi".
@@ -21,8 +22,11 @@ public class StackExercise {
      * @return a newly instantiated Deque. Deques implement both stack and queue behavior.
      */
     public Deque<String> createNewStack(){
-        Stack<String> first = new Stack<String>();
-        return null;
+        Deque<String> stack = new LinkedList<String>();
+        return stack;
+        
+        
+        
         
     }
 
@@ -50,7 +54,8 @@ public class StackExercise {
      * @return the value popped from the top of the deque.
      */
     public String removeFromTopOfStack(Deque<String> stack){
-        return stack.remove();
+         return stack.removeFirst();
+         
     }
     /**
      * Return the value at the top of a deque without removing the value.
@@ -58,6 +63,7 @@ public class StackExercise {
      * @return the value peeked from the top of the deque.
      */
     public String getTopOfStackWithoutRemoving(Deque<String> stack){
-        return stack.peek();
+         //stack.getFirst();
+         return stack.getFirst();
     }
 }
