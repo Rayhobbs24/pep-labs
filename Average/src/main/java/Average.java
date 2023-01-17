@@ -23,6 +23,7 @@ public class Average {
         double average = 0;
         for(int i=0; i < nums.length ; i++){
          sum = sum + nums[i];
+         
           average = sum / length;
         }
         return average;
